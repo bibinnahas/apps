@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 int number1 = Integer.parseInt(num1.getText().toString());
                 int number2 = Integer.parseInt(num2.getText().toString());
                 int sum = number1 + number2;
-                result.setText("Answer: " + String.valueOf(sum));
+                result.setText("Answer:  " + String.valueOf(sum));
             }
         });
     }
